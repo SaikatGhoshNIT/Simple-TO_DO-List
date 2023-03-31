@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.list-item{
+    cursor:pointer;
+    width: min-content;
+}
+.list-item:hover{
+    color: red;
+    text-decoration: line-through;
+}
+form{
+    margin: auto;
+    text-align: center;
+    font-size: large;
+    position: relative;
+    top: 40vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
